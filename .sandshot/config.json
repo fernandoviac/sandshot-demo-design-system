@@ -2,7 +2,11 @@
   "format": "sandshot/config",
   "formatVersion": 1,
   "projects": [
-    { "name": "ui", "root": "packages/ui" },
+    {
+      "name": "ui",
+      "root": "packages/ui",
+      "fonts": { "Roboto Slab": "fonts/RobotoSlab-Variable.ttf" }
+    },
     {
       "name": "marketing",
       "root": "packages/marketing",
