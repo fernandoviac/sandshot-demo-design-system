@@ -1,0 +1,7 @@
+@import "tailwindcss";
+@source "../../ui/src";
+
+@theme {
+  --color-brand: oklch(0.62 0.19 255);
+  --color-brand-foreground: oklch(0.98 0 0);
+}

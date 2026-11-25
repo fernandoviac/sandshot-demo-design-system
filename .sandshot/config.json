@@ -1,0 +1,14 @@
+{
+  "format": "sandshot/config",
+  "formatVersion": 1,
+  "projects": [
+    {
+      "name": "ui",
+      "root": "packages/ui"
+    },
+    {
+      "name": "marketing",
+      "root": "packages/marketing"
+    }
+  ]
+}
