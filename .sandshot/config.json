@@ -2,13 +2,14 @@
   "format": "sandshot/config",
   "formatVersion": 1,
   "projects": [
-    {
-      "name": "ui",
-      "root": "packages/ui"
-    },
+    { "name": "ui", "root": "packages/ui" },
     {
       "name": "marketing",
-      "root": "packages/marketing"
+      "root": "packages/marketing",
+      "viewports": [
+        { "name": "desktop", "width": 1024, "height": 480, "deviceScale": 1 },
+        { "name": "mobile", "width": 360, "height": 560, "deviceScale": 2 }
+      ]
     }
   ]
 }
